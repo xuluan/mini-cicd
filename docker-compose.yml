@@ -1,0 +1,6 @@
+services:
+  web:
+    image: mini-cicd-web:latest   # 这里只是占位，实际由 override 覆盖
+    ports:
+      - "80:80"
+    restart: unless-stopped
